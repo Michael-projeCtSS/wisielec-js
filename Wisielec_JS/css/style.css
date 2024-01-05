@@ -1,0 +1,76 @@
+:root
+{
+  --width-screen--: 1000px;
+  --width-half--: 500px;
+}
+body
+{
+  background-color: #000000;
+  color: lightgray;
+  font-size: 28px;
+  font-family: 'Inconsolata';
+  font-weight: 700;
+}
+
+#container
+{
+  width:var(--width-screen--);
+  margin: 0 auto;
+}
+
+#board
+{
+  width: var(--width-screen--);
+  margin: 50px 0;
+  text-align: center;
+  font-size: 48px;
+  min-height: 60px;
+}
+
+#gallows
+{
+  float: left;
+  width: var(--width-half--);
+  text-align: center;
+  min-height: 280px;
+}
+
+#abc
+{
+  float: left;
+  width: var(--width-half--);
+  text-align: center;
+  min-height: 280px;
+}
+
+.letter
+{
+  width: 40px;
+  height: 40px;
+  text-align:center;
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.letter:hover
+{
+  background-color: #222222;
+  color: white;
+  border: 3px solid white;
+}
+
+.reset
+{
+  color:green;
+  cursor: pointer;
+  font-size: 48px;
+}
+
+.reset:hover
+{
+  color:white;
+}
